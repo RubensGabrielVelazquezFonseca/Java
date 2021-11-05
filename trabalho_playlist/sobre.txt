@@ -1,0 +1,15 @@
+Desenvolver um gerenciador de Playlists, onde a playlist nada mais do que uma Lista de videos. Pode parecer complicado escrever o código de um aplicativo para fazer isso, mas vamos focar nesse primeiro momento apenas nas classes do Java. Cada playlist possui 1 ou mais videos (representado como uma url), sendo muito similar a uma playlist de videos favoritos do site youtube. 
+
+Nesse caso a playlist possui os seguintes atributos:  nome e lista de videos 
+
+A tarefa é escrever o código java que represente esses conceitos e como eles se relacionam. Especificamente, implementar:
+
+- (1) Criar 3 videos de exemplo
+
+- (2) Criar 1 playlist
+
+- (3) Associar os videos a playlist - usando List do java
+
+ 
+
+Essas classes poderiam ser usadas futuramente em que tipos de cenários? Um exemplo de uso de aplicação seria servir de base para criar uma página web permitindo pesquisar nessa playlist e filtrar por tags. Se pedirmos ao sistema para exibir todos os videos marcados com a tag "java", este deverá retornar somente os videos relacionados.
