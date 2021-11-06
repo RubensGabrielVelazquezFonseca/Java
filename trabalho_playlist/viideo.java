@@ -15,7 +15,8 @@ public class Viideo {
 	
 	@Override
 	public String toString() {		
-		return "Titulo: " + this.titulo;
+ return " Titulo: " + this.titulo + " / url:  " + this.url + " /  Minutos:  " + minutos;
+
 	}
 	
 	
