@@ -10,6 +10,9 @@ public class Playlist {
 	// false = eh private (não publico)
 	public Boolean Publico;
 	
+		List<Viideo> video = new ArrayList<>();
+
+	
 	@Override
 	public String toString() {	
 		return "Nome: " + this.NomePlaylist +  
