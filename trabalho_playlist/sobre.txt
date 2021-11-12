@@ -10,6 +10,31 @@ A tarefa é escrever o código java que represente esses conceitos e como eles s
 
 - (3) Associar os videos a playlist - usando List do java
 
+
+Outra parte 
+(1) - Ciar uma Lista de Playlist(Lista Main)
+
+- é a lista principal, que contém varias playlist
+
+- PlaylisJava
+
+-PlaylistMatematica
+
+-Alguma que você queira.
+
+ 
+
+(2) -  Na Lista Main criar um método que retorna apenas os vídeos de uma Playlisr especifica
+
+- Lista dos  os videos da Playlist
+
+ 
+
+(3) Um metodo que retorna apenas os videos assistidos
+
+- Como sei quais são os videos assistidos?
+
+- Vai precisar criar um atributo "assistindo" do tipo true/false
  
 
 Essas classes poderiam ser usadas futuramente em que tipos de cenários? Um exemplo de uso de aplicação seria servir de base para criar uma página web permitindo pesquisar nessa playlist e filtrar por tags. Se pedirmos ao sistema para exibir todos os videos marcados com a tag "java", este deverá retornar somente os videos relacionados.
