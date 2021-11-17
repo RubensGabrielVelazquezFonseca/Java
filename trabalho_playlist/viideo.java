@@ -2,12 +2,14 @@ public class Viideo {
   private String titulo;
 	private String url;
 	private Integer minutos;
+	    private boolean assistido;
 	
 	
 	public Viideo(String _titulo, String _url, Integer _minutos) {
 		this.titulo = _titulo;
 		this.url = _url;
 		this.minutos = _minutos;
+		 this.assistido = assistido;
 	}
 	// construtor vazio
 	public Viideo() {
@@ -38,6 +40,14 @@ public class Viideo {
 	public void setMinutos(Integer minutos) {
 		this.minutos = minutos;
 	}
+	
+	public boolean isAssistido() {
+        return assistido;
+    }
+
+    public void setAssistido(boolean assistido) {
+        this.assistido = assistido;
+    }
 	
 	
 
