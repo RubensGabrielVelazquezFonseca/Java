@@ -17,12 +17,11 @@ float media = (3.3f + 4.2f + 8.1f + 9f + 5.5f ) / 5f;
   System.out.println("Calculo da media: " + media);
 
 	List<Double> notas = new ArrayList<>();
-    notas.add(3.3d);
+       notas.add(3.3d);
      notas.add(4.2d);
    notas.add(8.1d);
    notas.add(9d);
-  notas.add(5.5d);   
-  
+  notas.add(5.5d); 
   double soma = 0d;
 		
 		for(Double var: notas) {
@@ -32,25 +31,7 @@ float media = (3.3f + 4.2f + 8.1f + 9f + 5.5f ) / 5f;
 		System.out.println("Media: " + soma/notas.size());
         
                 
-  Conceito a1 = new Conceito("A");
-		Conceito b1 = new Conceito("B");
-		Conceito c1 = new Conceito("C");
-		Conceito d1 = new Conceito("D");
-		
-		// conceitos.add(a1);
-		
-		System.out.println("Valor de a1: " + 
-				a1.letra + " == " + a1.getNota());
-		
-		System.out.println("Valor de b1: " + 
-				b1.letra + " == " + b1.getNota());
-                
-		System.out.println("Valor de c1: " + 
-				c1.letra + " == " + c1.getNota());
-                
-		System.out.println("Valor de d1: " + 
-				d1.letra + " == " + d1.getNota());
-  
+
   
   
   
