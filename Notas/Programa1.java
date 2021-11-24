@@ -1,9 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class programa1 {
     
     public static void main(String[] args) {
@@ -20,11 +17,11 @@ float media = (3.3f + 4.2f + 8.1f + 9f + 5.5f ) / 5f;
   System.out.println("Calculo da media: " + media);
 
 	List<Double> notas = new ArrayList<>();
-     notas.add(33d);
-     notas.add(42d);
-   notas.add(81d);
+    notas.add(3.3d);
+     notas.add(4.2d);
+   notas.add(8.1d);
    notas.add(9d);
-  notas.add(55d);   
+  notas.add(5.5d);   
   
   double soma = 0d;
 		
