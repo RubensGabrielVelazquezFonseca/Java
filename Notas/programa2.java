@@ -1,3 +1,8 @@
+package dp1;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /*Programa 2:
 Conceito médio: Agora, vamos calcular o conceito médio considerando a seguinte relação entre conceito e valor:
 A= 10
@@ -10,17 +15,17 @@ Exibir a informação para o usuário.*/
 
 
 
-package Dp2;
-public class programa2 {
+public class Programador2 {
 
     public static void main(String[] args) {
-        
-         Conceito a1 = new Conceito("A");
+    	
+    	
+        Conceito a1 = new Conceito("A");
         Conceito b1 = new Conceito("B");
         Conceito c1 = new Conceito("C");
         Conceito d1 = new Conceito("D");
         
-        // conceitos.add(a1);
+       
         
         System.out.println("Valor de a1: " + 
                 a1.letra + " == " + a1.getNota());
@@ -34,8 +39,41 @@ public class programa2 {
           System.out.println("Valor de d1: " + 
                 d1.letra + " == " + d1.getNota());
         
-    }
-
-}
         
+                      
+          List<Double> notas = new ArrayList<>();
+        
+      notas.add(10d);
+      notas.add(7.5d);
+      notas.add(4d);
+      notas.add(4d);
+      notas.add(10d); 
+        
+     double soma = 0d;
+   		
+   		for(Double var: notas) {
+   			soma = var + soma;
+   			System.out.println(soma);
+   		}
+   		System.out.println("Media: " + soma/notas.size());
+   		
+   		
+   	 if( (soma/notas.size() < 4)){
+         System.out.println("Nota D");
+     }
+        else if(soma/notas.size() < 6){
+         System.out.println("Nota C");
+     }
+        else if(soma/notas.size() < 7.5){
+         System.out.println("Nota B");
+     }
+        else if(soma/notas.size() <= 10){
+         System.out.println("Nota A");
+     }
+   		
+   		
+   		
+   		
+}
+    } 
         
