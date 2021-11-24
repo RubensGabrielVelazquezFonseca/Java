@@ -1,3 +1,18 @@
+/*Programa 2:
+
+Conceito médio: Agora, vamos calcular o conceito médio considerando a seguinte relação entre conceito e valor:
+A= 10
+B= 7.5
+C=6
+D=4
+
+Adicionar os seguintes conceitos para o aluno: A, B, D, D, A
+
+Faça no código um método que calcula a média final fornecidos os conceitos acima. Obs: cada conceito é convertido em uma nota, e depois calculamos a média. A média final (número) é convertida para um conceito.
+Exibir a informação para o usuário.*/
+
+
+
 import java.util.Scanner;
 
 public class Programador2 {
