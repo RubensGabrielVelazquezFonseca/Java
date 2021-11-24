@@ -1,3 +1,4 @@
+package Dp2;
 public class Conceito {
 	
 	// A, B, C, D
@@ -9,12 +10,12 @@ public class Conceito {
 	
 	public Double getNota() {
 		if (this.letra == "A")
-			return 10d; // d = double
+			return 10d; 
 		if (this.letra == "B")
 			return 8d;
 		if (this.letra == "C")
 			return 6d;
-		return 4d;	// D	
+		return 4d;		
 	}
 
 }
