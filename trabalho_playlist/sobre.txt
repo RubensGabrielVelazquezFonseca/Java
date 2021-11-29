@@ -1,4 +1,4 @@
-Desenvolver um gerenciador de Playlists, onde a playlist nada mais do que uma Lista de videos. Pode parecer complicado escrever o código de um aplicativo para fazer isso, mas vamos focar nesse primeiro momento apenas nas classes do Java. Cada playlist possui 1 ou mais videos (representado como uma url), sendo muito similar a uma playlist de videos favoritos do site youtube. 
+Desenvolver um gerenciador de Playlists, onde a playlist nada mais do que uma Lista de vídeos. Pode parecer complicado escrever o código de um aplicativo para fazer isso, mas vamos focar nesse primeiro momento apenas nas classes do Java. Cada playlist possui 1 ou mais vídeos (representado como uma url), sendo muito similar a uma playlist de vídeos favoritos do site youtube.
 
 Nesse caso a playlist possui os seguintes atributos:  nome e lista de videos 
 
