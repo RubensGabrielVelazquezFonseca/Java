@@ -1,14 +1,12 @@
+import java.util.Scanner;
+
 public abstract class Soma {
-    
-	public double calcular(double x, double y){
+ int a, b, s;
 
-        		return x + y;
-
-        
+    abstract void input();
+    abstract void add();
+    abstract void resultado();
+    Scanner sc = new Scanner(System.in);
     
     
-    
-    }
-
-
 }
