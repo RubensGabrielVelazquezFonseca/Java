@@ -1,0 +1,7 @@
+Objetivo: criar um método somador que recebe dois valores numéricos e faz a soma destes. Usando o conceito de classes abstratas, este método receberá dois valores de um tipo abstrato e executa a soma destes.
+
+Tipos aceitos: os valores numéricos recebidos podem ser de qualquer tipo, por exemplo: Float, Integer, Decimal.
+
+Atividade: complete as lacunas do arquivo de código (MainSomador.java), com o objetivo de fazer o código executar. Dica: implemente num outro arquivo cada linha para evitar erros que serão gerados quando importar o arquivo com lacunas. Assim você pode ir testando passo a passo.
+
+Enviar: o código fonte do arquivo MainSomador.java completo e executando sem erro com os resultados esperados.
