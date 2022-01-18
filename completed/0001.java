@@ -1,60 +1,102 @@
+package Completar;
 import java.math.BigDecimal;
 
-abstract class Number {
-protected Double value;
-public __________ getValue();
+public abstract class Numero {
+	protected Double valor;
+	public double getValor;
+       
 }
 
-class Integer ________ {
-private Integer classValue;
 
-public Integer(_______ classValue) {
-this.classValor = classValor;
+-------
+  
+  package Completar;
+class Inteiro extends Numero{
+	private Integer classValor;
+
+	public Inteiro(int classValor) { // aq eu coloquei int
+		this.classValor = classValor;
+	}
+
+  
+	public double getValor() { //integer
+          int valor = 15;
+		return valor;
+	}
 }
 
-public _______ getValue() {
-value = _____________
-return value;
-}
+
+-------
+  
+  package Completar;
+
+import java.math.BigDecimal;
+
+class Decimal extends Numero {
+	private BigDecimal classValor;
+
+	public Decimal(BigDecimal classValor) {
+		this.classValor = classValor;
+	}
+
+	public double getValor() {
+		valor = classValor.doubleValue();
+		return valor;
+	}
+	}
+
+
+
+-------
+  
+  
+  
+  package Completar;
+class Flutuante  extends Numero {
+	private Float classValor;
+
+        public Flutuante (float classValor) { // aq eu coloquei float
+		this.classValor = classValor;
+	}
+
+    public Float getValor() {
+        return classValor;
+    }
+
+        
+        
 }
 
-class Decimal extends _______ {
-private BigDecimal classValue;
 
-public Decimal(_______ classValue) {
-this.classValor = classValor;
-}
 
-public _______ getValue() {
-value = classValue.doubleValue();
-return value;
-}
-}
+--------------
+  
+  
+  package Completar;
 
-class Floating __________ {
-...
-}
+import java.math.BigDecimal;
 
-public class MainAdder {
+public class MainSomador {
+public static Double somador(Numero num1, Numero num2) {
+        Double soma = num1.  valor + num2.valor;
+        return soma;
+    }
 
-public static Double adder(_______ num1, _______ num2) {
-Double sum = num1._______ + num2._______;
-return sum;
-}
-
-// testing the method:
+ 
 public static void main(String args[]) {
-________ v1 = new Integer(2);
-________ v2 = new Float(4.0f);
-
-Double res1 = adder(v1, v2);
-System.out.println("Sum = " + res1); // Sum = 6.0
-
-________ v3 = new Decimal(new BigDecimal("5"));
-________ v4 = new Integer(10);
-
-Double res2 = adder(v3, v4);
-System.out.println("Sum = " + res2); // Sum = 15
+        Inteiro v1 = new Inteiro(2);
+        Flutuante v2 = new Flutuante(4.0f);
+        
+        Double res1 = somador(v1, v2); 
+        System.out.println("Soma = " + res1); // Soma = 6.0
+        
+        Decimal v3 = new Decimal(new BigDecimal("5"));
+        Inteiro v4 = new Inteiro(10);
+        
+        Double res2 = somador(v3, v4);
+        System.out.println("Soma = " + res2); // Soma = 15
+    }
+    
 }
-
-}
+  
+  
